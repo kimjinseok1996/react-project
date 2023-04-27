@@ -1,6 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
 
+import { Count } from "./component/Count";
+import { User } from "./component/User";
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <Count />
+      <User />
     </div>
   );
 }
